@@ -187,6 +187,14 @@ section {
     margin: auto 0;
 }
 
+.profile__pic {
+    display: flex;
+    height: 450px;
+    width: 450px;
+    padding-top: 16rem;
+    margin: auto 0;
+}
+
 .section__text {
     align-self: center;
     text-align: center;
@@ -240,17 +248,20 @@ section {
     border-radius: 2rem;
 }
 
-.btn-color-1, .btn-color-2 {
+.btn-color-1,
+.btn-color-2 {
     border: rgb(53, 53, 53) 0.1rem solid;
 }
 
-.btn-color-1:hover, .btn-color-2:hover {
+.btn-color-1:hover,
+.btn-color-2:hover {
     cursor: pointer;
 }
 
-.btn-color-1, .btn-color-2:hover {
+.btn-color-1,
+.btn-color-2:hover {
     background: rgb(53, 53, 53);
-    color:  white;
+    color: white;
 }
 
 .btn-color-1:hover {
@@ -262,9 +273,18 @@ section {
 }
 
 .btn-color-2:hover {
-    border:  rgb(255, 255, 255) 0.1rem solid;
+    border: rgb(255, 255, 255) 0.1rem solid;
 }
 
 .btn-container {
     gap: 1rem;
+}
+
+/* ABOUT PAGE */
+
+.about-pic {
+    display: flex;
+    height: 550px;
+    width: 700px;
+    margin: auto 0;
 }
