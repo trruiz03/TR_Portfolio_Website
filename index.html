@@ -38,7 +38,7 @@
         </div>
     </nav>
     <section id="profile">
-        <div class="section_pic-container">
+        <div class="section__pic-container">
             <img class="profile__pic" src="./Assets/portfolio_pic_1kX1k.jpg" alt="Thomas Ruiz headshot" />
         </div>
         <div class="section__text">
@@ -55,9 +55,9 @@
             </div>
             <div id="socials-container">
                 <img src="./Assets/linkedin.png" alt="linkedin profile" class="icon"
-                    onclick="location.href='https://linkedin.com/in/thomas-r-ruiz'" />
+                    onclick="location.href='https://www.linkedin.com/in/thomas-r-ruiz/'" />
                 <img src="./Assets/github.png" alt="github profile" class="icon"
-                    onclick="location.href='https://github.com/trruiz03'" />
+                    onclick="location.href.open='https://github.com/trruiz03'" />
             </div>
         </div>
     </section>
@@ -204,56 +204,84 @@
         <p class="section__text__p1">Browse my Recent</p>
         <h1 class="title">Projects</h1>
         <div class="experience-details-container">
-            <div class="details-container color-container">
-                <div class="article-container">
-                    <img src="./Assets/printer_partner_logo.jpg" alt="Project 1" class="project-img" />
+            <div class="about-containers">
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./Assets/printer_partner_logo.jpg" alt="Project 1" class="project-img" />
+                    </div>
+                    <h2 class="experience-sub-title project-title">Printer Partner</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://github.com/trruiz03/PrinterPARtner'">
+                            Github
+                        </button>
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://drive.google.com/file/d/1r4Ab9iQt7kE92eDDhcwdiBoryYHFUnnv/view?usp=sharing'">
+                            Video Demo
+                        </button>
+                    </div>
                 </div>
-                <h2 class="experience-sub-title project-title">Printer Partner</h2>
-                <div class="btn-container">
-                    <button class="btn btn-color-2 project-btn"
-                        onclick="location.href='https://github.com/trruiz03/PrinterPARtner'">
-                        Github
-                    </button>
-                    <button class="btn btn-color-2 project-btn"
-                        onclick="location.href='https://drive.google.com/file/d/1r4Ab9iQt7kE92eDDhcwdiBoryYHFUnnv/view?usp=sharing'">
-                        Video Demo
-                    </button>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./Assets/lostMemories.png" alt="Project 2" class="project-img" />
+                    </div>
+                    <h2 class="experience-sub-title project-title">Lost Memories</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://github.com/trruiz03/DemoLevel'">
+                            Github
+                        </button>
+                    </div>
                 </div>
-            </div>
-                        <div class="details-container color-container">
-                <div class="article-container">
-                    <img src="./Assets/printer_partner_logo.jpg" alt="Project 1" class="project-img" />
-                </div>
-                <h2 class="experience-sub-title project-title">Lost Memories</h2>
-                <div class="btn-container">
-                    <button class="btn btn-color-2 project-btn"
-                        onclick="location.href='https://github.com/trruiz03/DemoLevel'">
-                        Github
-                    </button>
-                    <button class="btn btn-color-2 project-btn"
-                        onclick="location.href='https://drive.google.com/file/d/1r4Ab9iQt7kE92eDDhcwdiBoryYHFUnnv/view?usp=sharing'">
-                        Video Demo
-                    </button>
-                </div>
-            </div>
-                        <div class="details-container color-container">
-                <div class="article-container">
-                    <img src="./Assets/printer_partner_logo.jpg" alt="Project 1" class="project-img" />
-                </div>
-                <h2 class="experience-sub-title project-title">Get Milky</h2>
-                <div class="btn-container">
-                    <button class="btn btn-color-2 project-btn"
-                        onclick="location.href='https://github.com/trruiz03/Unity-Cow-Game'">
-                        Github
-                    </button>
-                    <button class="btn btn-color-2 project-btn"
-                        onclick="location.href='https://drive.google.com/file/d/1r4Ab9iQt7kE92eDDhcwdiBoryYHFUnnv/view?usp=sharing'">
-                        Video Demo
-                    </button>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./Assets/getMilky.png" alt="Project 3" class="project-img" />
+                    </div>
+                    <h2 class="experience-sub-title project-title">Get Milky</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://github.com/trruiz03/Unity-Cow-Game'">
+                            Github
+                        </button>
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://drive.google.com/file/d/1uImx5xiXVk7J5THkMWva8KV1gPTYNPDY/view?usp=sharing'">
+                            Video Demo
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>
+        <img src="./Assets/arrow.png" alt="arrow icon" class="icon arrow" onclick="location.href='./#experience'" />
     </section>
+
+    <section id="contact">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="Assets/email.png" alt="mail icon" class="icon contact-icon email-icon">
+                <p><a href="mailto:thomasrruiz03@gmail.com">thomasrruiz03@gmail.com</a></p>
+            </div>
+            <div class="context-info-upper-container">
+                <div class="contact-info-container">
+                    <img src="Assets/linkedin.png" alt="LinkedIn icon" class="icon contact-icon">
+                    <p><a href="https://www.linkedin.com/in/thomas-r-ruiz/" target="_blank">LinkedIn</a></p>
+                </div>
+    </section>
+
+    <footer>
+        <nav>
+            <div cass="nav-links-container">
+                <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2025 Thomas Ruiz. All Rights Reserved</p>
+    </footer>
     <script src="script.js"></script>
 </body>
 
